@@ -1,3 +1,8 @@
+# Code to:
+#1. Read a textfile 
+#2. Clean the textfile
+#3. Calculate the GC content of DNA sequences within the file
+############################################################
 f = open("rosalind_gc.txt",'r') # open the file on read mode
 f = f.read() # read the whole text file and save as a string
 chars="\n" # characters I want to eliminate in f
